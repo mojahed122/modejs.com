@@ -898,19 +898,19 @@ footer{
 }
 
 #about-me{
-    min-height: 100vh;
+    max-height: 100vh;
 }
 
 #about-me,h2{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #about-me,.info-about-me{
-    font-size: 35px;
+    font-size: 20px;
 }
 
 #about-me,.front{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .read-more  {
@@ -932,15 +932,28 @@ footer{
     font-size: 25px;
 }
 
+#my-education .master-1:nth-child(3){
+    display: none;
+}
+
 .master-2 .degree{
     font-size: 25px;
     width: auto;
 }
 
-#my-skills-1{
-    font-size: 20px;
+#my-skills-1 .content-skills{
+    font-size: 15px;
 }
 
+.box-border-1, .skills-box h6 .bar{
+    font-size: 12px;
+    width: auto;
+    
+}
+
+.content-skills-2{
+    display: none;
+}
 
 }
 
