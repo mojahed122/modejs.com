@@ -589,16 +589,15 @@ footer{
     
     .side-bar i{
         display: flex;
-        width: 100px;
-        position: absolute;
-        margin-left: 20px;
-        margin-top: 20px;
-        font-size: 80px;
         cursor: pointer;
     }
 
     .side-bar{
         cursor: pointer;
+        width: 100px;
+        margin-left: 40px;
+        margin-top: 20px;
+        font-size: 80px;
     }
 
 
@@ -609,11 +608,12 @@ footer{
     width: 120px;
     top: 100px;
     position: relative;
-    left: -200px;
+    left: -600px;
 }
 
 .header-menuo.active{
     left: 200px;
+    transition: all .5s ease-in-out;
 }
 
 
@@ -623,21 +623,26 @@ footer{
     font-size: 50px;
 }
 
+.header-menuo nav{
+    background-color: rgb(51, 87, 93);
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+}
 
-    ul{
-        background-color: rgb(87, 174, 240);
+.header-menuo ul{
         border-radius: 10px;
         width: 280px;
         height: 100%;
         font-size: 50px;
-        
+        float: left;
     }
 
 
-
     ul li a{
-        font-size: 40px;
-        margin-top: 20px;
+        font-size: 50px;
+        margin-top: 25px;
+        color: rgb(231, 231, 231);
     }
 
     .imgee img{
@@ -837,12 +842,12 @@ footer{
         background-color: transparent;
         width: 120px;
         top: 100px;
-        position: relative;
-        left: -200px;
+        left: -300px;
     }
     
     .header-menuo.active{
-        left: 200px;
+        left: 100px;
+        transition: all .5s ease-in-out;
     }
 
 #home h1{
@@ -954,6 +959,21 @@ footer{
     body{
         width: 100%;
     }
+
+    .header-menuo {
+        display: block;
+        background-color: transparent;
+        width: 120px;
+        top: 100px;
+        position: relative;
+        left: -600px;
+    }
+    
+    .header-menuo.active{
+        left: 100px;
+        transition: all .5s ease-in-out;
+    }
+
 
     #home{
         min-height: 100vh;
