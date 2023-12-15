@@ -609,11 +609,11 @@ footer{
     width: 120px;
     top: 100px;
     position: relative;
-    left: -300px;
+    left: -200px;
 }
 
 .header-menuo.active{
-    left: 10px;
+    left: 200px;
 }
 
 
@@ -628,9 +628,9 @@ footer{
         background-color: rgb(87, 174, 240);
         border-radius: 10px;
         width: 280px;
-        height: 22%;
+        height: 100%;
         font-size: 50px;
-        position: fixed;
+        
     }
 
 
