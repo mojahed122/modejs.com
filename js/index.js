@@ -1,4 +1,4 @@
-const sideBar = document.querySelector(".side-bar");
+const sideBar = document.querySelector(".sidebar");
 const headerMenuo = document.querySelector(".header-menuo");
 
 sideBar.addEventListener("click", () => {
