@@ -832,6 +832,19 @@ footer{
         font-size: 20px;
     }
 
+    .header-menuo {
+        display: block;
+        background-color: transparent;
+        width: 120px;
+        top: 100px;
+        position: relative;
+        left: -200px;
+    }
+    
+    .header-menuo.active{
+        left: 200px;
+    }
+
 #home h1{
     font-size: 70px;
     width: auto;
