@@ -22,6 +22,7 @@ html{
 
 .header-menuo nav ul li ,.logo{
     display: inline-block;
+    
 }
 
 .logo a{
@@ -34,7 +35,7 @@ html{
     margin-left: 20px;
 }
 
-.side-bar i{
+.sidebar{
     color: rgb(255, 255, 255);
     display: none;
 }
@@ -600,38 +601,21 @@ footer{
         cursor: pointer;
     }
 
-/* nav {
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 30%;
-    height: 25vh;
-    background-color: transparent;
-    position: none;
-    
-} */
+
 
 .header-menuo {
     display: block;
     background-color: transparent;
-    width: 220px;
+    width: 120px;
     top: 100px;
     position: relative;
-    left: -200px;
+    left: -300px;
 }
 
-.header-menuo.show{
-    left: 100px;
+.header-menuo.active{
+    left: 10px;
 }
 
-/* .logo a{
-    width: 70%;
-    height: 4vh;
-    display: flex;
-    align-items: center;
-    justify-content: center
-} */
 
 .logo a{
     display: none;
@@ -639,61 +623,28 @@ footer{
     font-size: 50px;
 }
 
-/* .hadere-menuo{
-        display: block;
-        width: 220px;
-        top: 100px;
-        position: relative;
-        
-    } */
-
-
 
     ul{
         background-color: rgb(87, 174, 240);
+        border-radius: 10px;
         width: 280px;
-        height: 100%;
-        display: block;
+        height: 22%;
         font-size: 50px;
+        position: fixed;
     }
 
 
 
     ul li a{
         font-size: 40px;
+        margin-top: 20px;
     }
-
-    /* #home{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
-        min-height: 100vh;
-    } */
 
     .imgee img{
         width: 220px;
         height: 65px;
         display: none;
     }
-/* 
-    .home-info{
-        width: 350px;
-    }
-
-    .home-info, h1{
-        font-size: 74px;
-    }
-
-    .home-info, .front-end{
-        font-size: 30px;
-        width: 400px;
-    }
-
-    .home-inf, .info{
-        font-size: 30px;
-    } */
-
     
 #home h1{
     font-size: 70px;
@@ -728,11 +679,6 @@ footer{
         align-items: center;
         justify-content: center;
     }
-
-    /* #about-me{
-        max-height: 100vh;
-    } */
-
 
     #about-me h2{
         font-size: 70px;
@@ -797,9 +743,17 @@ footer{
     }
 
 
+    .master-1, .master-2{
+        margin-top: 80px;
+        
+    }
+    
     .master-1 h5{
+        position: relative;
+        top: 50px;
         font-size: 40px;
     }
+
 
     .master-1:nth-child(4){
         display: none;
@@ -864,6 +818,11 @@ footer{
 
     .social footer{
         font-size: 33px;
+    }
+
+    .submit a{
+        position: relative;
+        bottom: 20px;
     }
 }
 
