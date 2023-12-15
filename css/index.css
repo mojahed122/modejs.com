@@ -892,6 +892,10 @@ footer{
     position: relative;
 }
 
+.button a{
+    border-radius: 10px;
+}
+
 .home-info,.front-end{
     font-size: 50px;
     width: auto;
@@ -919,7 +923,9 @@ footer{
 
 .read-more a {
     padding: 20px 25px 25px 20px;
-    font-size: 50px;
+    font-size: 40px;
+    border-radius: 10px;
+    color: white;
 }
 
 #my-education{
@@ -930,6 +936,16 @@ footer{
 
 #my-education .master-1{
     font-size: 25px;
+}
+
+.master-1, .master-2{
+    margin-top: 80px;
+    
+}
+
+.master-1 h5{
+    position: relative;
+    top: 50px;
 }
 
 #my-education .master-1:nth-child(3){
@@ -953,6 +969,11 @@ footer{
 
 .content-skills-2{
     display: none;
+}
+
+.submit a{
+    position: relative;
+    bottom: 20px;
 }
 
 }
