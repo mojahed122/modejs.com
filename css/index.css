@@ -608,7 +608,7 @@ footer{
     width: 120px;
     top: 100px;
     position: relative;
-    left: -600px;
+    left: 100px;
 }
 
 .header-menuo.active{
@@ -842,7 +842,7 @@ footer{
         background-color: transparent;
         width: 120px;
         top: 100px;
-        left: -300px;
+        left: 100px;
     }
     
     .header-menuo.active{
@@ -966,7 +966,7 @@ footer{
         width: 120px;
         top: 100px;
         position: relative;
-        left: -600px;
+        left: 100px;
     }
     
     .header-menuo.active{
