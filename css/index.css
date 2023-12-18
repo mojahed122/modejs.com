@@ -275,7 +275,8 @@ h3{
     justify-content: center;
     gap: 2rem;
     height: 100vh;
-    background-color: #0724c13d;
+    /* background-color: #0724c13d; */
+    background-image: linear-gradient(190deg, rgba(34, 88, 110, 0.73) 10%, rgba(2, 16, 40, 0.79) 90%);
 }
 
 h6{
@@ -417,7 +418,8 @@ h4{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #00070b4a;
+    /* background-color: #00070b4a; */
+    background-image: radial-gradient(circle, #1e2587 13%, #042d4b 90%);
 }
 
 .contact-me{
@@ -430,7 +432,7 @@ h4{
     margin-bottom: 10px;
 }
 
-input{
+input ,textarea{
     color: white;
     text-transform: capitalize;
 }
@@ -456,7 +458,7 @@ input{
 }
 
 
-.input-message input{
+.input-message textarea{
     width: 540px;
     height: 170px;
     border-radius: 3px;
@@ -465,6 +467,8 @@ input{
     text-indent: 10px;
     top: 0;
     background-color: #011b29;
+    font-size: 15px;
+    padding-top: 5px;
 }
 
 .submit{
@@ -505,7 +509,8 @@ i:hover{
     justify-content: center;
     gap: 20px;
     height: 10vh;
-    background-color: #3d515e4a;
+    /* background-color: #3d515e4a; */
+    background-image: radial-gradient(circle, #04163f 10%, #1a3f89 90%);
     width: 100%;
 }
 
@@ -528,9 +533,9 @@ footer{
         font-size: 26px;
     }
 
-    .container{
+    /* .container{
         max-width: 1250px;
-    }
+    } */
 
     nav .logo a , ul li a{
         font-size: 25px;
@@ -551,9 +556,9 @@ footer{
         
     }
 
-    .container{
+    /* .container{
         max-width: 992px;
-    }
+    } */
 
     #home,#about-me,#my-education,
     #my-skills-1,#content-skills-2,
@@ -582,25 +587,18 @@ footer{
         font-size: 20px;
     }
 
-
-    .container{
-        padding: 5px;
-    }
-
     
     .side-bar i{
         display: block;
         color: white;
-        background-color: #008bbb;
-        border-radius: 10px;
     }
 
     .side-bar{
-        cursor: pointer;
         width: 100px;
         margin-left: 40px;
         margin-top: 20px;
-        font-size: 80px;
+        font-size: 70px;
+        
     }
 
 
@@ -611,7 +609,8 @@ footer{
     width: 120px;
     top: 50px;
     position: relative;
-    left: -600px;
+    left: -800px;
+    width: 100%;
 }
 
 .header-menuo.active{
@@ -631,6 +630,7 @@ nav{
     width: 600px;
     height: 500px;
     border-radius: 20px;
+    width: 100%;
 }
 
 ul{
@@ -654,14 +654,13 @@ ul{
         display: none;
     }
     
-#home h1{
+h1{
     font-size: 70px;
-    width: auto;
 }
 
-.home-info,.info{
-    font-size: 34px;
-    width: auto;
+.info{
+    font-size: 45px;
+    width: 100%;
     text-align: center;
 }
 
@@ -673,9 +672,9 @@ ul{
     position: relative;
 }
 
-.home-info,.front-end{
-    font-size: 50px;
-    width: auto;
+.front-end{
+    font-size: 55px;
+
 }
 
 
@@ -688,18 +687,22 @@ ul{
         justify-content: center;
     }
 
-    #about-me h2{
+h2{
         font-size: 70px;
-        width: auto;
         margin-top: 20px;
     }
 
-    #about-me,.front{
-        font-size: 38px;
+.front{
+        font-size: 55px;
     }
 
-    #about-me,.info-about-me{
-        font-size: 33px;
+    #about-me{
+        min-height: 100vh;
+    }
+
+.info-about-me{
+        font-size: 40px;
+        width: 100%;
     }
 
     #about-me,.read-more{
@@ -738,7 +741,7 @@ ul{
 
 
     .master-1 h3{
-        font-size: 35px;
+        font-size: 45px;
     }
 
 
@@ -746,20 +749,20 @@ ul{
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 22px;
-        width: auto;
+        font-size: 30px;
+        width: 100%;
     }
 
 
-    .master-1, .master-2{
-        margin-top: 80px;
-        
+.master-2{
+    font-size: 45px;
     }
     
-    .master-1 h5{
+h5{
         position: relative;
-        top: 50px;
+        bottom: 5px;
         font-size: 40px;
+        display: none;
     }
 
 
@@ -828,9 +831,19 @@ ul{
         font-size: 33px;
     }
 
+
     .submit a{
         position: relative;
         bottom: 20px;
+        padding: 10px 40px;
+    }
+
+    .contact-info{
+        width: 100%;
+    }
+    
+    #textarea{
+        width: 100%;
     }
 }
 
@@ -840,10 +853,6 @@ ul{
         font-size: 20px;
     }
 
-    .container{
-        width: 100%;
-    }
-
     .header-menuo {
         display: block;
         background-color: transparent;
@@ -851,6 +860,7 @@ ul{
         top: 50px;
         position: relative;
         left: -600px;
+        width: 100%;
     }
     
     .header-menuo.active{
@@ -880,14 +890,13 @@ ul{
             color: rgb(231, 231, 231);
         }
 
-#home h1{
-    font-size: 70px;
-    width: auto;
+    #home h1{
+        font-size: 70px;
+        width: 100%;
 }
 
 .home-info,.info{
-    font-size: 34px;
-    width: auto;
+    font-size: 45px;
     text-align: center;
 }
 
@@ -909,50 +918,59 @@ ul{
 }
 
 #about-me{
-    max-height: 100vh;
+    min-height: 100vh;
 }
 
-#about-me,h2{
+h2{
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.info-about-me{
     font-size: 40px;
+    width: 100%;
 }
 
-#about-me,.info-about-me{
-    font-size: 20px;
-}
-
-#about-me,.front{
-    font-size: 30px;
+.front{
+    font-size: 45px;
 }
 
 .read-more  {
     padding: 20px 17px 17px 20px;
+    margin-bottom: 30px;
 }
 
 .read-more a {
     padding: 20px 25px 25px 20px;
-    font-size: 40px;
-    border-radius: 10px;
+    font-size: 50px;
+    border-radius: 25px;
     color: white;
+    position: relative;
+    bottom: 17px;
 }
 
 #my-education{
-    padding-top: 40px;
-    padding-bottom: 40px;
     height: 100%;
 }
 
-#my-education .master-1{
-    font-size: 25px;
+.master-2 h3{
+    font-size: 55px;
 }
 
+.master-1{
+    position: relative;
+    top: 550px;
+}
+
+
 .master-1, .master-2{
-    margin-top: 80px;
-    
+    position: relative;
+    top: 50px;
+    font-size: 45px;
 }
 
 .master-1 h5{
-    position: relative;
-    top: 50px;
+    display: none;
 }
 
 #my-education .master-1:nth-child(3){
@@ -960,8 +978,12 @@ ul{
 }
 
 .master-2 .degree{
-    font-size: 25px;
-    width: auto;
+    font-size: 45px;
+}
+
+.master-1{
+    position: relative;
+    margin-top: 150px;
 }
 
 #my-skills-1 .content-skills{
@@ -970,7 +992,7 @@ ul{
 
 .box-border-1, .skills-box h6 .bar{
     font-size: 12px;
-    width: auto;
+    width: 100%;
     
 }
 
@@ -983,12 +1005,17 @@ ul{
     bottom: 20px;
 }
 
+.contact-info{
+    width: 100%;
+}
+
+#textarea{
+    width: 100%;
+}
+
 }
 
 @media (max-width: 360px){
-    body{
-        width: 100%;
-    }
 
     .header-menuo {
         display: block;
@@ -1074,297 +1101,13 @@ ul{
 
     .contact-info{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        width: auto;
+        grid-template-columns: repeat(1,1fr);
     }
-}
 
-
-/* 
-@media (max-width: 576px){
-
-    body{
-        background-color: rgb(26, 69, 81);
-    }
-    .container{
+    .input-message,textarea{
         width: 100%;
     }
-
-    nav {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        background-color: transparent;
-        position: none;
-        height: 10vh;
-        width: 576px;
-        right: 150px;
-        top: 30px;
-    }
-
-    
-
-    nav ul li ,.logo{
-        display: block;
-        position: relative;
-        left: 100px;
-        margin: 10px 0 10px 0;
-        height: 5vh;
-        
-}
-
-ul li{
-    background-color:#00aaff;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    position: none;
-}
-
-li a{
-    font-size: 25px;
-    text-align: center;
-    align-items: center;
-    width: auto;
-    margin: 0;
-    padding: 0;
-}
-
-#home{
-    width: 576px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 100vh;
-}
-
-.home-info{
-    font-size: 100%;
-    width: 100%;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-}
-
-.front-end{
-    font-size: 29px;
 }
 
 
 
-
-.info{
-    font-size: 25px;
-    width: 576px;
-}
-
-.imgee img{
-    display: none;
-}
-
-.button {
-    position: relative;
-    min-width: 576px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#about-me{
-    width: 576px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 20px;
-    height: 100vh;
-}
-
-h2{
-    text-align: center;
-
-}
-
-.info-about-me{
-    width: 340px;
-}
-
-.read-more{
-    position: relative;
-    top: 50px;
-}
-
-#my-education{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 0px;
-    min-width: 576px;
-    min-height: 150vh;
-    background-color: green;
-    font-size: 12px;
-}
-
-.master-2{
-    min-width: 380px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-}
-
-.degree{
-    width: 350px;
-}
-
-#my-skills-1{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    width: 576px;
-    margin: 0;
-    padding: 0;
-    height: 180vh;
-    background-color: red;
-}
-
-.content-skills{
-    height: 100vh;
-    width: 576px;
-}
-
-.content-skills-2{
-    height: 100vh;
-    width: 576px;
-}
-
-#contact-box{
-    font-size: 100%;
-    min-width: 576px;
-    
-}
-
-.input-name input{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    width: 100%;
-    height: 100%;
-}
-
-.input-info input{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    width: 100%;
-    height: 100%;
-}
-
-.submit a{
-    width: 976px;
-}
-
-
-
-}
-
-
-@media (max-width: 631px){
-    html{
-        font-size: 100%;
-        width: 100%;
-    }
-
-    #home h1{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 100%;
-        font-size: 43px;
-        margin-left: 20px;
-        position: relative;
-    }
-
-}
-
-@media (max-width: 1200px){
-    .container{
-        width: 100%;
-    }
-
-    nav{
-        position: fixed;
-        top: 0;
-    }
-    nav ul li a{
-        font-size: 28px;
-        
-    }
-
-    .logo a{
-        font-size: 28px;
-    }
-
-    .home-info h1{
-        font-size: 50px;
-        right: 20px;
-        position: relative;
-    }
-
-    .home-info .info{
-        font-size: 20px;
-    }
-
-    .home-info .front-end{
-        font-size: 40px;
-    }
-
-    .home-info .button a{
-        position: relative;
-        font-size: 30px;
-        left: 10px;
-        
-    }
-
-    #about-me{
-        width: 100%;
-        margin: 2px;
-    }
-
-    #about-me h2{
-        font-size: 50px;
-        
-    }
-
-    #about-me .front{
-        font-size: 30px;
-    }
-
-    #about-me .info-about-me{
-        font-size: 22px;
-    }
-
-    #about-me .read-more a{
-        font-size: 30px;
-    }
-
-    #my-education{
-        width: 100%;
-    }
-
-    #my-education h5{
-        font-size: 40px;
-    }
-
-    #my-education .master-2{
-        font-size: 20px;
-        width: 420px;
-        padding: 10px;
-    }
-
-    #my-skills-1 h4{
-        font-size: 40px;
-    }
-
-    
-
-
-}
- */
