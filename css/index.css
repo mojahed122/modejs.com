@@ -333,16 +333,16 @@ h1{
 
 
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .front-end{
-    font-size: 35px;
+    font-size: 28px;
 }
 
 .info{
     width: 100%;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .button{
@@ -356,7 +356,7 @@ h1{
 
 .button a{
     width: 60%;
-    font-size: 35px;
+    font-size: 20px;
 }
 
 
@@ -429,21 +429,21 @@ strong{
     }
 
     h2{
-        font-size: 70px;
+        font-size: 40px;
     }
 
     
 .front{
-    font-size: 33px;
+    font-size: 28px;
 }
 
 .info-about-me{
-    font-size: 30px;
+    font-size: 20px;
     width: 100%;
 }
 
 .read-more a{
-    font-size: 40px;
+    font-size: 22px;
 }
 
 }
@@ -451,7 +451,7 @@ strong{
 @media (max-width: 468px){
 
     h2{
-        font-size: 50px;
+        font-size: 40px;
     }
 
     
@@ -460,11 +460,11 @@ strong{
 }
 
 .info-about-me{
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .read-more a{
-    font-size: 30px;
+    font-size: 22px;
 }
 
 }
@@ -550,16 +550,16 @@ h3{
 
 
     h5{
-        font-size: 38px;
+        font-size: 30px;
     }
     
     h3{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .degree{
         width: 100%;
-        font-size: 30px;
+        font-size: 20px;
     }
 
 }
@@ -584,16 +584,16 @@ h3{
 
 
     h5{
-        font-size: 38px;
+        font-size: 30px;
     }
     
     h3{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .degree{
         width: 100%;
-        font-size: 30px;
+        font-size: 20px;
     }
 
 }
@@ -917,7 +917,7 @@ footer{
 @media (max-width: 768px){
 
     .contact-me{
-        font-size: 60px;
+        font-size: 40px;
     }
 
     .input-name input{
