@@ -1,5 +1,5 @@
-const sideBar = document.querySelector(".sidebar");
-const headerMenuo = document.querySelector(".header-menuo");
+const sideBar = document.querySelector(".side-bar");
+const headerMenuo = document.querySelector("ul");
 
 sideBar.addEventListener("click", () => {
     sideBar.classList.toggle("active");
