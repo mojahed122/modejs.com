@@ -272,7 +272,7 @@ h1{
         justify-content: center;
         flex-direction: column;
         /* height: 220vh; */
-        height: 170vh;
+        height: 160vh;
         width: 100%;
         text-align: center;
         background-color: #011b29;;
@@ -328,7 +328,7 @@ h1{
     #home{
         justify-content: center;
         /* min-height: 220vh; */
-        height: 170vh;
+        height: 160vh;
     }
 
 
@@ -533,7 +533,7 @@ h3{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: 650px 650px 550px 550px 550px;
         place-items: center;
-        min-height: 450vh;
+        min-height: 420vh;
         align-items: first baseline;
     }
 
@@ -567,7 +567,7 @@ h3{
 
 @media (max-width: 468px){
     #my-education{
-        min-height: 450vh;
+        min-height: 420vh;
         width: 100%;
     }
 
