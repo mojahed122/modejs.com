@@ -36,6 +36,13 @@ html{
 
 }
 
+@media (max-width: 468px){
+    body{
+        font-size: 23px;
+    }
+
+}
+
 .logo a{
     float: left;
     color: white;
@@ -58,6 +65,19 @@ html{
 
     .side-bar {
         width: 90px;
+        display: block;
+        font-size: 80px;
+        /* cursor: pointer; */
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 468px){
+
+    .side-bar {
+        width: 60px;
         display: block;
         font-size: 80px;
         /* cursor: pointer; */
@@ -116,7 +136,7 @@ ul,li a:hover{
         width: 100%;
         z-index: 2;
         position: none;
-        min-height: 200vh;
+        height: 200vh;
     }
 
     
@@ -125,6 +145,37 @@ ul,li a{
     font-size: 38px;
     width: 80%;
     text-align: left;
+}
+
+
+ul{
+    background-color: #045e87;
+    text-align: center;
+    position: relative;
+    left: -800px;
+}
+
+ul.active{
+    left: -50px;
+    transition: all 0.5s ease-in-out;
+}
+
+li a{
+    margin-bottom: 30px;
+    
+}
+
+}
+
+
+@media (max-width: 468px){
+    .header-menuo{
+        width: 90%;
+    }
+
+    
+ul,li a{
+    font-size: 30px;
 }
 
 
@@ -222,7 +273,7 @@ h1{
         align-items: center;
         justify-content: space-evenly;
         flex-direction: column;
-        min-height: 100vh;
+        height: 100vh;
         width: 100%;
         text-align: center;
         background-color: #011b29;;
@@ -273,6 +324,43 @@ h1{
 
 
 }
+
+@media (max-width: 468px){
+    #home{
+        justify-content: center;
+    }
+
+
+h1{
+    font-size: 50px;
+}
+
+.front-end{
+    font-size: 35px;
+}
+
+.info{
+    width: 100%;
+    font-size: 30px;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button a{
+    width: 60%;
+    font-size: 35px;
+}
+
+
+}
+
 
 
 #about-me{
@@ -336,7 +424,7 @@ strong{
 @media (max-width: 768px){
     #about-me{
         width: 100%;
-        min-height: 120vh;
+        height: 120vh;
     }
 
     h2{
@@ -358,6 +446,28 @@ strong{
 }
 
 }
+
+@media (max-width: 468px){
+
+    h2{
+        font-size: 50px;
+    }
+
+    
+.front{
+    font-size: 28px;
+}
+
+.info-about-me{
+    font-size: 28px;
+}
+
+.read-more a{
+    font-size: 30px;
+}
+
+}
+
 
 
 #my-education{
@@ -423,7 +533,7 @@ h3{
         grid-template-rows: auto auto auto auto;
         place-items: center;
         gap: 0px;
-        min-height: 250vh;
+        height: 250vh;
         align-items: first baseline;
     }
 
@@ -447,6 +557,35 @@ h3{
     }
 
 }
+
+
+@media (max-width: 468px){
+    #my-education{
+        height: 300vh;
+        width: 100%;
+    }
+
+    .master-1{
+        position: none;
+        text-align: center;
+        width: 90%;
+    }
+
+    h5{
+        font-size: 38px;
+    }
+    
+    h3{
+        font-size: 30px;
+    }
+
+    .degree{
+        width: 100%;
+        font-size: 30px;
+    }
+
+}
+
 
 
 #my-skills-1{
@@ -595,7 +734,6 @@ h4{
     
 #my-skills-1{
     flex-direction: column;
-    gap: 2rem;
     height: 100vh;
 }
 
@@ -604,9 +742,9 @@ h4{
     font-size: 59px;
 }
 
-.bar{
+/* .bar{
     width: 550px;
-}
+} */
 
 .title{
     font-size: 30px;
@@ -620,6 +758,36 @@ h4{
 }
 
 }
+
+@media (max-width: 468px){
+    
+    #my-skills-1{
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    
+    h4{
+        font-size: 39px;
+    }
+    
+    .bar{
+        width: 300px;
+    }
+    
+    .title{
+        font-size: 20px;
+        color: white;
+    }
+    
+    
+    .title span{
+        font-size: 20px;
+        color: white;
+    }
+    
+    }
 
 
 #contact-box{
@@ -757,6 +925,44 @@ footer{
         font-size: 20px;
     }
 
+
+}
+
+@media (max-width: 468px){
+
+    #contact-box{
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-me{
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .input-name input{
+        width: 80%;
+        height: 10vh;
+    }
+
+    .input-info input{
+        width: 80%;
+        height: 10vh;
+    }
+
+    .contact-info .submit a{
+        font-size: 20px;
+    }
+
+    footer{
+        font-size: 15px;
+        width: 100%;
+    }
+
+    
+.input-message textarea{
+    width: 330px;
+}
 
 }
 
