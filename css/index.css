@@ -269,9 +269,10 @@ h1{
     #home{
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
         flex-direction: column;
-        height: 220vh;
+        /* height: 220vh; */
+        height: 170vh;
         width: 100%;
         text-align: center;
         background-color: #011b29;;
@@ -326,7 +327,8 @@ h1{
 @media (max-width: 468px){
     #home{
         justify-content: center;
-        min-height: 220vh;
+        /* min-height: 220vh; */
+        height: 170vh;
     }
 
 
@@ -541,6 +543,12 @@ h3{
         width: 90%;
     }
 
+    
+.master-1:nth-child(4){
+    display: none;
+}
+
+
     h5{
         font-size: 38px;
     }
@@ -568,6 +576,12 @@ h3{
         text-align: center;
         width: 90%;
     }
+
+    
+.master-1:nth-child(3){
+    display: none;
+}
+
 
     h5{
         font-size: 38px;
@@ -924,6 +938,11 @@ footer{
         font-size: 20px;
     }
 
+    .submit{
+        top: 10px;
+        position: relative;
+    }
+
 
 }
 
@@ -956,6 +975,11 @@ footer{
     footer{
         font-size: 15px;
         width: 100%;
+    }
+
+    .submit{
+        top: 10px;
+        position: relative;
     }
 
     
