@@ -534,7 +534,7 @@ h3{
         /* grid-template-rows: 450px 450px 450px 450px; */
         grid-template-rows: 15% 15% 15% 15%;
         place-items: center;
-        min-height: 150vh;
+        min-height: 220vh;
         align-items: first baseline;
         background-image: linear-gradient(90deg, rgba(0, 78, 224, 0.59) 9%, rgba(25, 54, 104, 0.57) 46%);
     }
@@ -570,7 +570,7 @@ h3{
 @media (max-width: 468px){
     #my-education{
         /* min-height: 388vh; */
-        min-height: 150vh;
+        min-height: 220vh;
         grid-template-rows: 20% 20% 20% 20%;
         width: 100%;
     }
