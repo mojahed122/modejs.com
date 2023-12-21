@@ -131,7 +131,7 @@ ul,li a:hover{
         display: block;
         background-color: transparent;
         width: 100%;
-        z-index: 999;
+        
         position: none;
         height: 0;
     }
@@ -150,7 +150,7 @@ ul{
     border-radius: 20px 30px 40px;
     text-align: center;
     position: relative;
-    z-index: 1;
+    
     left: -800px;
 }
 
@@ -557,7 +557,9 @@ h3{
 
     h5{
         font-size: 30px;
-        
+        font-family: 'Poppins', sans-serif;
+font-family: 'Rowdies', sans-serif;
+font-family: 'Tektur', sans-serif;
     }
     
     h3{
@@ -761,6 +763,10 @@ h4{
 
 h4{
     font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Rowdies', sans-serif;
+font-family: 'Tektur', sans-serif;
 }
 
 /* .bar{
@@ -927,6 +933,9 @@ footer{
 
     .contact-me{
         font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+font-family: 'Rowdies', sans-serif;
+font-family: 'Tektur', sans-serif;
     }
 
     .input-name input{
@@ -950,6 +959,12 @@ footer{
     .submit{
         top: 15px;
         position: relative;
+    }
+
+    .submit a{
+        font-family: 'Poppins', sans-serif;
+font-family: 'Rowdies', sans-serif;
+font-family: 'Tektur', sans-serif;
     }
 
 
